@@ -1,0 +1,50 @@
+baseURL = 'https://tunaung22.github.io/'
+languageCode = 'en-us'
+title = 'Tun Tun Aung'
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+title = "Profile"
+Content = """
+    a software engineer from Myanmar
+    
+    JavaScript / TypeScript, Python, C#, Go, SQL
+    Node, Django, ASP.NET
+
+Previously worked with .NET Core 9 but currently learning Golang
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/tunaung22"
+[[params.socialIcons]]
+name = "telegram"
+url = "t.me/sam1i"
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/tunaung2048"
+
+# [params.profileMode]
+# enabled = true
+# title = "Tun Tun Aung" # optional default will be site title
+# subtitle = """
+#     Web Development, JavaScript, Python, C#, Go
+# """
+# imageUrl = "/images/profile/profile-0.png" # optional
+# imageTitle = "<title of image as alt>" # optional
+# imageWidth = 120 # custom size
+# imageHeight = 120 # custom size
+# # Buttons
+# [[params.profileMode.buttons]]
+# name = "Archive"
+# url = "/archive"
+# [[params.profileMode.buttons]]
+# name = "Github"
+# url = "https://github.com/"
+# # Social
+# [[params.socialIcons]]
+# name = "telegram"
+# url = "t.me/sam1i"
+# [[params.socialIcons]]
+# name = "x"
+# url = "https://x.com/tunaung2048"
