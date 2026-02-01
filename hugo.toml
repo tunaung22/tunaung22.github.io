@@ -48,3 +48,8 @@ url = "https://x.com/tunaung2048"
 # [[params.socialIcons]]
 # name = "x"
 # url = "https://x.com/tunaung2048"
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
